@@ -36,3 +36,16 @@ cacheSolve <- function(x, ...) {
   
   ## Return a matrix that is the inverse of 'x'
 }
+
+## Test my function 
+## I tested my function in my R console 
+
+> test_matrix <- makeCacheMatrix(matrix(4:8, 2, 2)) ##Declare a matrix in my original function
+                                                    ## and name is test_matrix
+> test_matrix$getInverse()
+NULL
+> cacheSolve(test_matrix) #This was the inverse result from the console
+      [,1] [,2]
+[1,] -3.5    3
+[2,]  2.5   -2
+
